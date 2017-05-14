@@ -80,7 +80,11 @@ input:focus {
     box-shadow: 1px 1px 10px #a9cce3;
 }
 
-input.ng-valid.ng-touched {
+input.ng-pristine.ng-untouched {
+    border-color: #a9cce3;
+}
+
+input.ng-valid.ng-touched.ng-dirty {
     border-color: green;
 }
 
